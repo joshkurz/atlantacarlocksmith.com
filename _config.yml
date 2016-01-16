@@ -1,0 +1,26 @@
+# Server
+markdown:         rdiscount
+pygments:         true
+destination:      ./_gh_pages
+exclude:          [".idea", ".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE",
+                  "Gruntfile.js", "package.json", "node_modules", "README.md", "dist", "less", "metro",
+                  "tests", "raw-files.js", "validation-report.json", "validation-status.json"]
+host:             0.0.0.0
+port:             4000
+baseurl:          ""
+
+# Custom vars
+current_version:  2.0.32
+
+ghauthor:         "A-G-F"
+ghproject:        "open-sesame"
+ghname:           "Open Sesame Locksmith"
+locale:           "en"
+ga-acc:           "" # your Google Analytics tracking No., e.g.  UA-123456789-1
+
+defaults:
+  -
+    scope:
+      path:       ""
+    values:
+      layout:     "standard"

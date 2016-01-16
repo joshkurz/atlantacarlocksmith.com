@@ -1,0 +1,57 @@
+---
+layout: standard
+title: "Requirements"
+slug: requirements
+---
+    <div class="container">
+        <h1>
+            <a href="#" class="history-back"><i class="icon-arrow-left-3 fg-darker smaller"></i></a>
+            Requirements
+        </h1>
+
+        <h3>Folder structure</h3>
+<pre class="prettyprint linenums">
+_config.yml
+_includes
+_layouts
+  -- standard.html
+css
+  -- metro-bootstrap.css
+  -- metro-bootstrap-responsive.css (optional)
+  -- iconFont.css
+data (optional, put your spry data here)
+fonts
+  -- iconFont.* (optional)
+  -- metroSysIcons.*
+js
+  -- jquery.min.js
+  -- jquery.widget.min.js
+  -- jquery.mousewheel.js
+  -- metro.min.js
+
+index.html
+</pre>
+
+        <h3 id="_doctype">Doctype</h3>
+        <p class="description">
+            Metro UI 4 Jekyll makes use of HTML elements and CSS properties that require the use of the HTML5 doctype.
+            Include it at the beginning of all your layouts.
+        </p>
+<pre class="prettyprint linenums">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+...
+&lt;/html&gt;
+</pre>
+
+        <h3 id="_javascript">Javascript</h3>
+        <p class="description">
+            All javascript plugins require <a href="http://jquery.com/" target="_blank">jQuery 2.0</a> or above and <a href="http://jqueryui.com/widget/" target="_blank">jQuery UI widget factory</a> 1.9 or above.
+        </p>
+
+        <h3 id="_namespace">Namespace</h3>
+        <p class="description">
+            Metro UI 4 Jekyll uses self namespace <code>.metro</code>. You must add class <code>.metro</code> to main container.
+        </p>
+        <pre class="prettyprint linenums">&lt;body class="metro"&gt;...&lt;/body&gt;</pre>
+    </div>
