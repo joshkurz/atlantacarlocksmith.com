@@ -6,10 +6,55 @@
  * Both licensed under 
  */
 
-.logo {
+.os-header {
+  height: 300px;
+}
+
+.os-header .os-top-logo {
   float: right;
   width: 300px;
   height: 240px;
   margin-top: -180px;
-  background: url(/images/opensesame/uploads/2012/01/logo-300x239.png);
+  background: url(../images/opensesame/uploads/2012/01/logo-300x239.png);
+}
+
+.os-metal {
+  background: url(../images/opensesame/uploads/2012/02/background-1024x307.jpg) top left no-repeat;
+  background-size: cover;
+}
+
+.os-carousel-container {
+  padding-top: 1px;
+  text-align: center;
+}
+
+.os-carousel-container .os-slide {
+  color: white;
+  text-align: center;
+}
+
+.os-carousel-container .os-slide h3 {
+  margin-top: 20px;
+  color: white;
+}
+
+.os-carousel-container .os-slide p {
+  color: white;
+}
+
+.os-footer {
+  padding: 20px 0 20px;
+}
+
+.os-footer .os-posts {
+  text-align: left;
+}
+
+.os-footer .os-posts h3 {
+  color: white;
+}
+
+.os-footer .os-posts a {
+  width: 100%;
+  margin-top: 5px;
 }
