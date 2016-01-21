@@ -1,0 +1,21 @@
+<div class="bg-dark">
+    <div class="container os-footer">
+        <div class="grid no-margin">
+            <div class="row no-margin">
+                <div class="span2 text-center">
+                    <img src="images/opensesame/uploads/2012/01/logo-300x239.png" alt="">
+                </div>
+                <div class="span7">
+                    <h3 class="fg-white">The Atlanta Locksmith</h3>
+                    <p class="fg-white">There are no imitations for good hard working locksmiths, who provide quality service. If Residential, Commercial, or Automotive locksmith services are what you desire, call Open Sesame. Night or Day.  <a href="tel:+1-855-321-6736">855-321-OPEN</a></p>
+                </div>
+                <div class="span3 os-posts">
+                    <h3>Recent Posts</h3>
+                    {% for post in site.posts limit:3 %}
+                        <a class="button info" href="{{ post.url }}">{{post.title}}</a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

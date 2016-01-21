@@ -3,114 +3,32 @@ layout: standard
 title: "Atlanta Locksmith | $50 Car Locksmith | Kennesaw Locksmith"
 slug: index
 ---
-    <div class="os-header os-metal">
-        <div class="container" style="padding: 50px 20px">
-            <h1 class="fg-white">Open Sesame Locksmith</h1>
-            <h2 class="fg-white" style = "margin-top: 20px;">
-                A residential, commercial, and automotive locksmith <br>
-                serving Atlanta, and its surrounding cities.
-            </h2>
-            <div class="os-top-logo"></div>
-    </div>
+<div class="os-header os-metal">
+    <div class="container" style="padding: 50px 20px">
+        <h1 class="fg-white">Open Sesame Locksmith</h1>
+        <h2 class="fg-white" style="margin-top: 20px;">
+            A residential, commercial, and automotive locksmith <br>
+            serving Atlanta, and its surrounding cities.
+        </h2>
+        <div class="os-top-logo"></div>
+</div>
 
-    <div class="container">
-        <div class="grid fluid">
-            <div class="row" style="margin-top: 20px">
-                {% for link in site.data.homelinks %}
-                <a href="{{link.href}}" 
-                   class="span4 {{link.class}} padding20 text-center">
-                    <h2 class="fg-white">{{link.text}}</h2>
-                </a>
-                {% endfor %}
-            </div>
+<div class="container">
+    <div class="grid fluid">
+        <div class="row" style="margin-top: 20px">
+            {% for link in site.data.homelinks %}
+            <a href="{{link.href}}" 
+               class="span4 {{link.class}} padding20 text-center">
+                <h2 class="fg-white">{{link.text}}</h2>
+            </a>
+            {% endfor %}
         </div>
     </div>
+</div>
 
-    <div class="container">
-        <div class="grid no-margin">
-            <div class="row">
-                <div class="span5 no-tablet-portrait no-phone">
-                    <a href="tel:+1-855-321-6736" class="notice marker-on-right bg-lighterBlue padding10 text-center" style="height: 200px">
-                            <h3 class="fg-white" style="font-size: 40px; line-height: 135px; margin-bottom: 30px">
-                                855-321-OPEN
-                                <p>Call and get upfront pricing and honesty</p>
-                            </h3>
-                    </a>
-                </div>
-                <div class="span7">
-                    <a href="tel:+1-855-321-6736" class="notice marker-on-bottom no-desktop padding10 bg-lighterBlue text-center ">
-                        <p class="subheader-secondary fg-white no-margin">
-                            855-321-OPEN
-                        </p>
-                    </a>
-                    <ol class="styled">
-                        <li style="width: 90%">$50 Car Lockouts. Price may vary depending upon location</li>
-                        <li style="width: 90%">Can cut keys for 95% of vehicles</li>
-                        <li style="width: 90%">Residential or Commercial re-keys, installations and more...</li>
-                        <li style="width: 90%">Low voltage Security Installations</li>
-                        <li style="width: 90%">Atlanta and Kennesaw Safe Movers</li>
-                    </ol>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="bg-steel no-tablet-portrait no-phone os-carousel-container">
-        <div class="container padding20 fg-white">
-            <div class="carousel no-overflow" id="carousel2">
-                <div class="slide os-slide">
-                    <img src="images/opensesame/uploads/2012/04/front-1024x597.jpg"/>
-                </div>
-                <div class="slide os-slide">
-                    <h3> Locked Out? </h3>
-                    <p>Call Open Sesame. $50 car lockouts for select areas.</p>
-                    <img src="images/opensesame/uploads/2012/10/girls-locked-out-1024x680.jpg"/>
-                </div>
-                <div class="slide os-slide">
-                    <h3> Satisfaction Guaranteed! </h3>
-                    <p>Open Sesame provides professional locksmith services to those in need.</p>
-                    <img src="images/opensesame/uploads/2012/10/found-keys-in-atlanta.jpg"/>
-                </div>
-                <div class="slide os-slide">
-                    <h3> Atanta and Kennesaw Locksmith! </h3>
-                    <p>Georgia is safe now that Open Sesame is on the scene.</p>
-                    <img src="images/opensesame/uploads/2012/03/Locked-out-1024x680.jpg"/>
-                </div>
-            </div>
-            <script>
-                $(function(){
-                    $("#carousel2").carousel({
-                        height: 550,
-                        period: 5000,
-                        duration: 1000,
-                        effect: 'fade',
-                        markers: {
-                            show: true
-                        }
-                    });
-                })
-            </script>
-        </div>
-    </div>
-
-    <div class="bg-dark">
-        <div class="container os-footer">
-            <div class="grid no-margin">
-                <div class="row no-margin">
-                    <div class="span2 text-center">
-                        <img src="images/opensesame/uploads/2012/01/logo-300x239.png" alt="">
-                    </div>
-                    <div class="span7">
-                        <h3 class="fg-white">The Atlanta Locksmith</h3>
-                        <p class="fg-white">There are no imitations for good hard working locksmiths, who provide quality service. If Residential, Commercial, or Automotive locksmith services are what you desire, call Open Sesame. Night or Day.  <a href="tel:+1-855-321-6736">855-321-OPEN</a></p>
-                    </div>
-                    <div class="span3 os-posts">
-                        <h3>Recent Posts</h3>
-                        {% for post in site.posts limit:3 %}
-                            <a class="button info" href="{{ post.url }}">{{post.title}}</a>
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+{% include home-cta.html %}
+{% include home-slider.html %}
+{% include home-residential-content.html %}
+{% include home-commercial-content.html %}
+{% include home-automotive-content.html %}
+{% include home-footer.html %}
