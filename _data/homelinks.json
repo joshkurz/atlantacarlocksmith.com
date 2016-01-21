@@ -1,0 +1,17 @@
+[
+    {
+        "href": "/locksmith-services/residential-locksmith",
+        "text": "Residential Locksmith",
+        "class": "bg-green"
+    },
+    {
+        "href": "/locksmith-services/commercial-locksmith",
+        "text": "Commercial Locksmith",
+        "class": "bg-amber"
+    },
+    {
+        "href": "/locksmith-services/car-locksmith",
+        "text": "Automotive Locksmith",
+        "class": "bg-red"
+    }
+]

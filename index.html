@@ -16,15 +16,12 @@ slug: index
     <div class="container">
         <div class="grid fluid">
             <div class="row" style="margin-top: 20px">
-                <div class="span4 bg-green padding20 text-center">
-                    <h2 class="fg-white">Residential</h2>
-                </div>
-                <div class="span4 bg-amber padding20 text-center">
-                    <h2 class="fg-white">Commercial</h2>
-                </div>
-                <div class="span4 bg-red padding20 text-center">
-                    <h2 class="fg-white">Automotive</h2>
-                </div>
+                {% for link in site.data.homelinks %}
+                <a href="{{link.href}}" 
+                   class="span4 {{link.class}} padding20 text-center">
+                    <h2 class="fg-white">{{link.text}}</h2>
+                </a>
+                {% endfor %}
             </div>
         </div>
     </div>
@@ -33,7 +30,7 @@ slug: index
         <div class="grid no-margin">
             <div class="row">
                 <div class="span5 no-tablet-portrait no-phone">
-                    <a href="tel:+1-855-321-6736" class="notice marker-on-right bg-lighterBlue padding20 text-center" style="height: 200px">
+                    <a href="tel:+1-855-321-6736" class="notice marker-on-right bg-lighterBlue padding10 text-center" style="height: 200px">
                             <h3 class="fg-white" style="font-size: 40px; line-height: 135px; margin-bottom: 30px">
                                 855-321-OPEN
                                 <p>Call and get upfront pricing and honesty</p>
