@@ -6,7 +6,7 @@ The site is hosted in s3 with AWS Cloudfront as the caching layer. This allows t
 
 ## Atlanta Locksmith
 
-If you are interested in learning more about Open Sesame, go and see the (atlanta locksmith)[http://atlantacarlocksmith.com] site.
+If you are interested in learning more about Open Sesame, go and see the [atlanta locksmith](http://atlantacarlocksmith.com) site.
 
 ## Documentation
 
