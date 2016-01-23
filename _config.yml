@@ -10,11 +10,12 @@ port:             4000
 baseurl:          ""
 
 # Custom vars
-current_version:  2.0.32
+current_version:  0.0.1
 
-ghauthor:         "A-G-F"
+ghauthor:         "joshkurz"
 ghproject:        "open-sesame"
 ghname:           "Open Sesame Locksmith"
+description:      "321 Open Sesame is the Atlanta Locksmith that truly cares about her customers."
 locale:           "en"
 ga-acc:           "" # your Google Analytics tracking No., e.g.  UA-123456789-1
 

@@ -7,29 +7,18 @@
 
                 <a class="element1 pull-menu" href="#"></a>
                 <ul class="element-menu">
-                    <li>
-                        <a class="dropdown-toggle" href="#">Locksmith Services</a>
-                        <ul class="dropdown-menu dark" data-role="dropdown">
-                            {% for link in site.data.nav_links %}
-                            <li><a href="{{ link.href }}">{{link.text}}</a></li>
-                            <li class="divider"></li>
-                            {% endfor %}
-                        </ul>
-                    </li>
+                    {% for link in site.data.nav_links %}
+                    <li><a href="{{ link.href }}">{{link.text}}</a></li>
                     <li class="divider"></li>
+                    {% endfor %}
                     <li><a href="{{ site.baseurl }}/atlanta-locksmith-blog" class="fg-yellow">Blog</a></li>
                 </ul>
 
                 <div class="no-tablet-portrait no-phone">
-                    <a title="Download source" href="https://github.com/{{ site.ghauthor }}/{{ site.ghproject }}/archive/master.zip" class="element place-right"><span class="icon-box-add"></span></a>
+                    {% for link in site.data.social_links %}
+                    <a title="{{link.title}}" href="{{link.href}}" class="element place-right"><span class="{{link.class}}"></span></a>
                     <span class="element-divider place-right"></span>
-                    <div title="GitHub Forks" class="element place-right"><span class="icon-share-2"></span> <span class="github-forks">0</span></div>
-                    <span class="element-divider place-right"></span>
-                    <div title="GitHub Stars" class="element place-right"><span class="icon-star"></span> <span class="github-watchers">0</span></div>
-                    <span class="element-divider place-right"></span>
-                    <a title="GitHub" href="https://github.com/{{ site.ghauthor }}/{{ site.ghproject }}" class="element place-right" target="_blank"><span class="icon-github"></span></a>
-                    <span class="element-divider place-right"></span>
-                    <a title="CSS3 validator" href="javascript:location.href='http://jigsaw.w3.org/css-validator/validator?uri='+escape(document.location.href)+'&profile=css3&usermedium=all&warning=no&vextwarning='" class="element place-right" target="_blank"><span class="icon-css3"></span></a>
+                    {% endfor %}
                 </div>
             </div>
         </div>

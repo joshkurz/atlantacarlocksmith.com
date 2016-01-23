@@ -1,7 +1,7 @@
 $(function(){
     if (document.location.host.indexOf('.dev') > -1) return;
 
-    var repo = "A-G-F/metro-ui-jekyll";
+    var repo = "joshkurz/open-sesame";
 
     $.ajax({
         url: 'https://api.github.com/repos/' + repo,

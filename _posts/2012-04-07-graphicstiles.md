@@ -25,11 +25,11 @@ tags:
   </p>
   
   <p>
-    <a href="http://www.atlantacarlocksmith.com/wp-content/uploads/2012/04/back.jpg"><img class="aligncenter size-medium wp-image-179" title="Atlanta Car Locksmith Business Card" src="http://www.atlantacarlocksmith.com/wp-content/uploads/2012/04/back-300x175.jpg" alt="Car locksmith in Atlanta - Business Card" width="300" height="175" /></a>
+    <a href="{{site.baseurl}}/images/opensesame/uploads/2012/04/back.jpg"><img class="aligncenter size-medium wp-image-179" title="Atlanta Car Locksmith Business Card" src="{{site.baseurl}}/images/opensesame/uploads/2012/04/back-300x175.jpg" alt="Car locksmith in Atlanta - Business Card" width="300" height="175" /></a>
   </p>
   
   <p>
-    <a href="http://www.atlantacarlocksmith.com/wp-content/uploads/2012/04/front.jpg"><img class="aligncenter size-medium wp-image-180" title="Atlanta Car Locksmith - Business Card" src="http://www.atlantacarlocksmith.com/wp-content/uploads/2012/04/front-300x175.jpg" alt="Car Locksmith in Atlanta - Business Card" width="300" height="175" /></a>
+    <a href="{{site.baseurl}}/images/opensesame/uploads/2012/04/front.jpg"><img class="aligncenter size-medium wp-image-180" title="Atlanta Car Locksmith - Business Card" src="{{site.baseurl}}/images/opensesame/uploads/2012/04/front-300x175.jpg" alt="Car Locksmith in Atlanta - Business Card" width="300" height="175" /></a>
   </p>
   
   <p>
