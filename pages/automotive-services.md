@@ -21,8 +21,5 @@ categories:
 ================
 
 <div class="pf-content">
-  <p>
-    Car Locksmith Content Goes Here  
-  </p>
-
+  {% include content/automotive-content.html %}
 </div>

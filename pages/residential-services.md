@@ -20,8 +20,5 @@ categories:
 ================
 
 <div class="pf-content">
-  <p>
-    Residential Locksmith Content Goes Here  
-  </p>
-
+  {% include content/residential-content.html %}
 </div>
