@@ -7,8 +7,8 @@
   , "author": "joshkurz"
   , "scripts": { "test": "grunt test" }
   ,  "engines": {
-    "node": "4.0.0",
-    "npm": "2.14.2"
+    "node": "4.2.5",
+    "npm": "2.14.12"
   }
   , "bundledDependencies": [
       "open-sesame"
