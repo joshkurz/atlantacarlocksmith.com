@@ -4,21 +4,13 @@
             <div class="slide os-slide">
                 <img src="images/opensesame/uploads/2012/04/front-1024x597.jpg"/>
             </div>
+            {% for slide in site.data.slides %}
             <div class="slide os-slide">
-                <h3> Locked Out? </h3>
-                <p>Call Open Sesame. $50 car lockouts for select areas.</p>
-                <img src="images/opensesame/uploads/2012/10/girls-locked-out-1024x680.jpg"/>
+                <h3>{{slide.header}}</h3>
+                <p>{{slide.text}}</p>
+                <img src="{{slide.img}}"/>
             </div>
-            <div class="slide os-slide">
-                <h3> Satisfaction Guaranteed! </h3>
-                <p>Open Sesame provides professional locksmith services to those in need.</p>
-                <img src="images/opensesame/uploads/2012/10/found-keys-in-atlanta.jpg"/>
-            </div>
-            <div class="slide os-slide">
-                <h3> Atanta and Kennesaw Locksmith! </h3>
-                <p>Georgia is safe now that Open Sesame is on the scene.</p>
-                <img src="images/opensesame/uploads/2012/03/Locked-out-1024x680.jpg"/>
-            </div>
+            {% endfor %}
         </div>
         <script>
             $(function(){
