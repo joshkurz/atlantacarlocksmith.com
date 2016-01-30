@@ -4,8 +4,9 @@
             <div class="navigation-bar-content container">
                 <a href="{% if site.baseurl == "" %}/{% else %}{{ site.baseurl }}{% endif %}" class="element"><span class="icon-key"></span> Open Sesame</a>
                 <span class="element-divider"></span>
-
+                
                 <a class="element1 pull-menu" href="#"></a>
+
                 <ul class="element-menu">
                     {% for link in site.data.nav_links %}
                     <li><a href="{{ link.href }}">{{link.text}}</a></li>
@@ -21,5 +22,5 @@
                     {% endfor %}
                 </div>
             </div>
-        </div>
+    </div>
     </header>

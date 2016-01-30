@@ -4,6 +4,12 @@ title: "$50 Car Locksmith | Kennesaw Locksmith"
 slug: index
 ---
 <div class="os-header os-metal">
+    <div class="no-desktop place-right mobile-social-links">
+        {% for link in site.data.social_links %}
+        <a title="{{link.title}}" href="{{link.href}}" class="element place-right"><span class="{{link.class}}"></span></a>
+        <span class="element-divider place-right"></span>
+        {% endfor %}
+    </div>
     <div class="container" style="padding: 50px 20px">
         <h1 class="fg-white">Open Sesame | Atlanta Locksmith</h1>
         <h2 class="fg-white" style="margin-top: 20px;">
