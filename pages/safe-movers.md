@@ -5,7 +5,7 @@ date: 2016-01-19
 author: joshkurz
 layout: post
 guid: http://www.atlantacarlocksmith.com/?p=505
-permalink: /locksmith-services/safe-moving/
+permalink: /locksmith-services/atlanta-safe-movers/
 Hide SexyBookmarks:
   - 0
 Hide OgTags:
@@ -21,7 +21,7 @@ categories:
 
 <div class="pf-content">
   <p>
-    Safe Moving Content Goes Here  
+      {% include content/safe-content-first.html %}
   </p>
 
 </div>

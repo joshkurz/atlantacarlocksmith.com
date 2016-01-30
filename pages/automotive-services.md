@@ -21,5 +21,5 @@ categories:
 ================
 
 <div class="pf-content">
-  {% include content/automotive-content.html %}
+  {% include content/automotive-content-first.html %}
 </div>

@@ -20,5 +20,5 @@ categories:
 ================
 
 <div class="pf-content">
-  {% include content/residential-content.html %}
+  {% include content/residential-content-first.html %}
 </div>
