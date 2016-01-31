@@ -1,6 +1,6 @@
 ---
 layout: standard
-title: "Blog"
+title: "Atlanta Locksmith Blog"
 slug: blog
 permalink: /atlanta-locksmith-blog/
 ---
