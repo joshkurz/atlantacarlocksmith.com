@@ -19,13 +19,17 @@ tags:
   - Kennesaw Locksmith
   - Residential Locksmith
 ---
+
+{{ page.title }}
+================
+
 <div class="pf-content">
   <p>
     There has always been quite a lot of skepticism in Atlanta and its neighboring cities when it comes to reliable Atlanta Locksmiths. Especially those that are found on the first page of Google. This is an upsetting truth. Up until now there has not been a single act of chivalry in this industry. This will change very drastically here in the next few months.
   </p>
   
   <p>
-    Open Sesame has been taking it slow in the locksmith community, because we want to make sure that we have the ability to offer all locksmith services before we advertise for them. Well the good news is that we have teamed up with one of the most reliable locksmith companies in Atlanta to help build our knowledge base and take back the city. <a title="AmbuLock" href="http://ambulock.com">http://ambulock.com</a> does not have much of a website, but we can assure you that their locksmith skills are top notch. Not only do they have the skills to compete with the best, but they also have the network and knowledge of the Atlanta area locksmith community that has been kept under such a tight lock and key.  <a href="http://www.atlantacarlocksmith.com/sesameContent/uploads/2013/03/ambulock.jpg"><img class="size-full wp-image-373 alignright" title="ambulock" src="http://www.atlantacarlocksmith.com/sesameContent/uploads/2013/03/ambulock.jpg" alt="" width="278" height="97" /></a>
+    Open Sesame has been taking it slow in the locksmith community, because we want to make sure that we have the ability to offer all locksmith services before we advertise for them. Well the good news is that we have teamed up with one of the most reliable locksmith companies in Atlanta to help build our knowledge base and take back the city. <a title="AmbuLock" href="http://ambulock.com">http://ambulock.com</a> does not have much of a website, but we can assure you that their locksmith skills are top notch. Not only do they have the skills to compete with the best, but they also have the network and knowledge of the Atlanta area locksmith community that has been kept under such a tight lock and key.  <a href="{{site.baseurl}}/images/opensesame/uploads/2013/03/ambulock.jpg"><img class="size-full wp-image-373 alignright" title="ambulock" src="{{site.baseurl}}/images/opensesame/uploads/2013/03/ambulock.jpg" alt="" width="278" height="97" /></a>
   </p>
   
   <p>

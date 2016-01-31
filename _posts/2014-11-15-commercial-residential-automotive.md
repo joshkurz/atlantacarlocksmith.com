@@ -27,7 +27,7 @@ categories:
   </p>
   
   <div id="attachment_460" style="width: 310px" class="wp-caption alignright">
-    <a href="http://www.atlantacarlocksmith.com/sesameContent/uploads/2014/11/Cut-Costs-300x199.jpg"><img class="size-full wp-image-460" src="{{site.baseurl}}/images/opensesame/uploads/2014/11/Cut-Costs-300x199.jpg" alt="An Atlanta Locksmith cutting costs." width="300" height="199" /></a>
+    <a href="{{site.baseurl}}/images/opensesame/uploads/2014/11/Cut-Costs-300x199.jpg"><img class="size-full wp-image-460" src="{{site.baseurl}}/images/opensesame/uploads/2014/11/Cut-Costs-300x199.jpg" alt="An Atlanta Locksmith cutting costs." width="300" height="199" /></a>
     
     <p class="wp-caption-text">
       An Atlanta Locksmith cutting costs.

@@ -24,6 +24,10 @@ tags:
   - Open Sesame
   - woodstock car locksmith
 ---
+
+{{ page.title }}
+================
+
 <div class="pf-content">
   <p>
     Have you locked your keys in your car? Open Sesame will help you in your time of need. <a href="tel:+18553216736">Call us free!</a> Open Sesame unlocks cars for $50. We do not have a service fee or any other charge that you are not aware of. $50 unless the time is after 6:00pm.

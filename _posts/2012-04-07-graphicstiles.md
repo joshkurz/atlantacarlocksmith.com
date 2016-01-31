@@ -19,6 +19,10 @@ categories:
 tags:
   - graphic designer in atlanta
 ---
+
+{{ page.title }}
+================
+
 <div class="pf-content">
   <p>
     Atlanta Graphic Designer &#8211; Adam Stiles was contracted by 321 Open Sesame for a business card design. His company, Graphic Stiles, does work across the globe designing everything from product labels, to logos, banners, and fliers. His experience and professionalism in this industry was a perfect match for our company vision as evidenced by this stunning urban business card design.

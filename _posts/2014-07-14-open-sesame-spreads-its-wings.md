@@ -16,6 +16,10 @@ categories:
   - Atlanta Locksmiths
   - Locksmiths in Atlanta
 ---
+
+{{ page.title }}
+================
+
 <div class="pf-content">
   <p>
     There are various services locksmith companies can provide. The variety of work can range anywhere from helping individuals with their automotive and household issues, to helping commercial and industrial businesses. Open Sesame has expanded itself in the best way possible. We are now beginning to work in every section of the locksmith industry. We have focused mainly on the automotive and home portions of the business so far, and are proud to now be able to facilitate any and every need a customer may bring to our attention.
@@ -26,7 +30,7 @@ categories:
   </div>
   
   <div>
-    <a href="http://www.atlantacarlocksmith.com/sesameContent/uploads/2014/07/atlanta-skyline-night-b.jpg"><img class=" wp-image-451 alignright" alt="Atlanta Skyline at Night" src="http://www.atlantacarlocksmith.com/sesameContent/uploads/2014/07/atlanta-skyline-night-b.jpg" width="336" height="306" /></a>
+    <a href="{{site.baseurl}}/images/opensesame/uploads/2014/07/atlanta-skyline-night-b.jpg"><img class=" wp-image-451 alignright" alt="Atlanta Skyline at Night" src="{{site.baseurl}}/images/opensesame/uploads/2014/07/atlanta-skyline-night-b.jpg" width="336" height="306" /></a>
   </div>
   
   <div>

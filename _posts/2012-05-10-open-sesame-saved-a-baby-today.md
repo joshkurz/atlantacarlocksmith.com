@@ -17,6 +17,10 @@ aktt_tweeted:
 categories:
   - Atlanta Auto Locksmith
 ---
+
+{{ page.title }}
+================
+
 <div class="pf-content">
   <p>
     &nbsp;

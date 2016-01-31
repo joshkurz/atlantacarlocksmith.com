@@ -17,9 +17,13 @@ aktt_tweeted:
 categories:
   - Atlanta Auto Locksmith
 ---
+
+{{ page.title }}
+================
+
 <div class="pf-content">
   <p>
-    Open Sesame has just released its first press release. Click <a href="http://www.prlog.org/11823607-24-hour-50-atlanta-car-locksmith.html  " title="Atlanta Auto Locksmith Press Release" target="_blank">here</a> to view the press release. We are proud to announce that we have been getting more calls than ever before. So far the amount of people that are locking their keys in their car in Atlanta is staggering. Open Sesame will not rest until everyone in Atlanta knows about our services. There is no reason for other locksmith companies to charge such a high rate to such an easy job as simple car unlocks. $50 car unlocks is our motto and we will stand by this. Call 1-855-321-OPEN if you have locked your keys in your car.
+    Open Sesame has just released its first press release. Click <a href="http://www.prlog.org/11823607-24-hour-50-atlanta-car-locksmith.html" title="Atlanta Auto Locksmith Press Release" target="_blank">here</a> to view the press release. We are proud to announce that we have been getting more calls than ever before. So far the amount of people that are locking their keys in their car in Atlanta is staggering. Open Sesame will not rest until everyone in Atlanta knows about our services. There is no reason for other locksmith companies to charge such a high rate to such an easy job as simple car unlocks. $50 car unlocks is our motto and we will stand by this. Call 1-855-321-OPEN if you have locked your keys in your car.
   </p>
   
   <p>

@@ -18,10 +18,14 @@ tags:
   - Atlanta Locksmith
   - Atlanta Safe Movers
 ---
+
+{{ page.title }}
+================
+
 <div class="pf-content">
   <div>
     <div id="attachment_441" style="width: 310px" class="wp-caption alignright">
-      <a href="http://www.atlantacarlocksmith.com/sesameContent/uploads/2013/11/Gun-Safe-Movers5433.jpg"><img class="size-full wp-image-441 " style="padding-left: 20px;" alt="Atlanta Safe Movers" src="http://www.atlantacarlocksmith.com/sesameContent/uploads/2013/11/Gun-Safe-Movers5433.jpg" width="300" height="438" /></a>
+      <a href="{{site.baseurl}}/images/opensesame/uploads/2013/11/Gun-Safe-Movers5433.jpg"><img class="size-full wp-image-441 " style="padding-left: 20px;" alt="Atlanta Safe Movers" src="{{site.baseurl}}/images/opensesame/uploads/2013/11/Gun-Safe-Movers5433.jpg" width="300" height="438" /></a>
       
       <p class="wp-caption-text">
         Atlanta Safe Movers

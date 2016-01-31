@@ -16,6 +16,10 @@ categories:
   - Locksmiths in Atlanta
   - News
 ---
+
+{{ page.title }}
+================
+
 <div class="pf-content">
   <p>
     The heat is on. Open Sesame has just released a new video. This is our most professional marketing piece to date. I would say it is a master locksmithing piece. The video is just the icing on the cake however. Its all tied together by our new 11 alive webpage that is located <a title="11 Alive Open Sesam Profile" href="http://midtown.11alive.com/business-directory/home-garden/214042/open-sesame">here</a>.

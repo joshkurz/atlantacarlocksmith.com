@@ -17,6 +17,10 @@ aktt_tweeted:
 categories:
   - Atlanta Auto Locksmith
 ---
+
+{{ page.title }}
+================
+
 <div class="pf-content">
   <p>
     Open Sesame has set its price at $50. We had a long run unlocking cars for $40, but the time has come that we start charging customers a tad bit more. Unless you are a fan on facebook. Facebook fans still get there cars unlocked for $40.

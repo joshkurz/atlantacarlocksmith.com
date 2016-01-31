@@ -13,13 +13,17 @@ Hide OgTags:
 categories:
   - News
 ---
+
+{{ page.title }}
+================
+
 <div class="pf-content">
   <p>
     The Governors Office of Consumer Protection has taken the first big leap to helping rid the city of scamming locksmiths. The City has been plagued by companies that offer appealing prices and dispatch times while in reality they charge way to much and take way too long to arrive.  11 alive news wrote a great post about the details of the case. <a href="http://www.11alive.com/rss/article/300202/40/Atlanta-locksmith-found-guilty-of-deceptive-practices?utm_source=dlvr.it">http://www.11alive.com/rss/article/300202/40/Atlanta-locksmith-found-guilty-of-deceptive-practices?utm_source=dlvr.it</a>&#8216;
   </p>
   
   <div id="attachment_419" style="width: 310px" class="wp-caption alignleft">
-    <a style="margin-right: 10px;" href="http://www.atlantacarlocksmith.com/sesameContent/uploads/2013/07/scamlocksmith.jpg"><img class="size-full wp-image-419" alt="The Atlanta locksmith Scammer" src="http://www.atlantacarlocksmith.com/sesameContent/uploads/2013/07/scamlocksmith.jpg" width="300" height="331" /></a>
+    <a style="margin-right: 10px;" href="{{site.baseurl}}/images/opensesame/uploads/2013/07/scamlocksmith.jpg"><img class="size-full wp-image-419" alt="The Atlanta locksmith Scammer" src="{{site.baseurl}}/images/opensesame/uploads/2013/07/scamlocksmith.jpg" width="300" height="331" /></a>
     
     <p class="wp-caption-text">
       The Atlanta locksmith Scammer

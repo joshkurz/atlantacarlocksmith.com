@@ -13,6 +13,10 @@ Hide OgTags:
 categories:
   - News
 ---
+
+{{ page.title }}
+================
+
 <div class="pf-content">
   <p align="CENTER">
     <p>
@@ -28,7 +32,7 @@ categories:
     </p>
     
     <div id="attachment_433" style="width: 373px" class="wp-caption alignleft">
-      <a href="http://www.atlantacarlocksmith.com/sesameContent/uploads/2013/10/georgia-kennesaw-mountain.jpeg"><img class=" wp-image-433  " style="margin-right: 25px; float: left;" alt="Locksmith around Kennesaw Mountain" src="http://www.atlantacarlocksmith.com/sesameContent/uploads/2013/10/georgia-kennesaw-mountain.jpeg" width="363" height="247" /></a>
+      <a href="{{site.baseurl}}/images/opensesame/uploads/2013/10/georgia-kennesaw-mountain.jpeg"><img class=" wp-image-433  " style="margin-right: 25px; float: left;" alt="Locksmith around Kennesaw Mountain" src="{{site.baseurl}}/images/opensesame/uploads/2013/10/georgia-kennesaw-mountain.jpeg" width="363" height="247" /></a>
       
       <p class="wp-caption-text">
         Locksmith around Kennesaw Mountain

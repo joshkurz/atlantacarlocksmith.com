@@ -17,12 +17,16 @@ aktt_tweeted:
 categories:
   - Atlanta Auto Locksmith
 ---
+
+{{ page.title }}
+================
+
 <div class="pf-content">
   <p>
-    Open Sesame will share the 500 Mega Million $ Jackpot with anyone who shares or likes this post. &#8220;Unlock you future&#8221;
+    Open Sesame will share the 500 Mega Million $ Jackpot with anyone who shares or likes this post. &#8220;Unlock your future&#8221;
   </p>
   
   <p>
-    <img src="http://www.atlantacarlocksmith.com/wp-content/uploads/2012/03/IMG_08331-e1333078951152.jpg" alt="Atlanta Auto Locksmith Mega Millions" />
+    <img src="{{site.baseurl}}/images/opensesame/uploads/2012/03/IMG_08331-e1333078951152.jpg" alt="Atlanta Auto Locksmith Mega Millions" />
   </p>
 </div>
