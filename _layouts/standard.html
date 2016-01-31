@@ -19,6 +19,8 @@
     <link href="{{ site.baseurl }}/css/iconFont.min.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/css/opensesame.min.css" rel="stylesheet">
 
+    <script src="{{ site.baseurl }}/js/jquery/jquery.min.js"></script>
+
 {% if page.slug == "test-page" %}
     <style>
         .grid .row [class*="span"] {padding: 20px; text-align: right}
@@ -29,8 +31,27 @@
     <link href="{{ site.baseurl }}/js/prettify/prettify.css" rel="stylesheet">
 {% endif %}
 
+    <title>Atlanta Locksmith | {{ page.title }}</title>
+</head>
+
+{% if page.slug == "index" %}
+<body style="background-color: #efefef">
+{% else %}
+<body>
+{% endif %}
+
+{% if page.slug != "start-screen" and page.slug != "template-news-portal" %}
+{% include header.html %}
+{% endif %}
+
+{{ content }}
+
+{% if page.slug != "index" and page.slug != "start-screen" %}
+{% include footer.html %}
+{% endif %}
+</body>
+<footer>
     <!-- Load JavaScript Libraries -->
-    <script src="{{ site.baseurl }}/js/jquery/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/js/jquery/jquery.widget.min.js"></script>
     <script src="{{ site.baseurl }}/js/jquery/jquery.mousewheel.js"></script>
 {% if page.slug == "tiles" %}
@@ -66,24 +87,5 @@
 {% if page.slug == "start-screen" %}
     <script src="{{ site.baseurl }}/js/start-screen.js"></script>
 {% endif %}
-
-    <title>Atlanta Locksmith | {{ page.title }}</title>
-</head>
-
-{% if page.slug == "index" %}
-<body style="background-color: #efefef">
-{% else %}
-<body>
-{% endif %}
-
-{% if page.slug != "start-screen" and page.slug != "template-news-portal" %}
-{% include header.html %}
-{% endif %}
-
-{{ content }}
-
-{% if page.slug != "index" and page.slug != "start-screen" %}
-{% include footer.html %}
-{% endif %}
-</body>
+</footer>
 </html>
