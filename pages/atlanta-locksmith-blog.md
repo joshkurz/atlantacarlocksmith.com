@@ -3,6 +3,10 @@ layout: standard
 title: "Atlanta Locksmith Blog"
 slug: blog
 permalink: /atlanta-locksmith-blog/
+sitemap:
+    priority: 1
+    changefreq: 'monthly'
+    lastmod: 2016-01-29T12:49:30-05:00
 ---
 
 <div class="container">

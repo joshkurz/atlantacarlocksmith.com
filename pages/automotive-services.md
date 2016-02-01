@@ -15,6 +15,10 @@ categories:
   - Atlanta Locksmith
   - Car Locksmith
   - Atlanta Car Locksmith
+sitemap:
+    priority: 1
+    changefreq: 'monthly'
+    lastmod: 2016-01-27T12:49:30-05:00
 ---
 
 {{ page.title }}

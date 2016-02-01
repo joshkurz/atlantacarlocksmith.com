@@ -14,6 +14,10 @@ categories:
   - Kennesaw Locksmith
   - Atlanta Locksmith
   - Residential Locksmith
+sitemap:
+    priority: 0.7
+    changefreq: 'monthly'
+    lastmod: 2016-01-26T12:49:30-05:00
 ---
 
 {{ page.title }}

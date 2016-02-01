@@ -14,6 +14,10 @@ categories:
   - Kennesaw Locksmith
   - Atlanta Locksmith
   - Commercial Locksmith
+sitemap:
+    priority: 1
+    changefreq: 'monthly'
+    lastmod: 2016-01-28T12:49:30-05:00
 ---
 
 {{ page.title }}
