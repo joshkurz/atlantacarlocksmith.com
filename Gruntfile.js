@@ -205,8 +205,7 @@ module.exports = function(grunt) {
             dynamic: {    
               options: {                       // Target options
                 optimizationLevel: 3,
-                svgoPlugins: [{ removeViewBox: false }],
-                use: [mozjpeg()]
+                svgoPlugins: [{ removeViewBox: false }]
               },                     // Another target
               files: [{
                 expand: true,                  // Enable dynamic expansion
