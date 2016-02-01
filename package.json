@@ -1,32 +1,39 @@
 {
-    "name": "open-sesame"
-  , "description": "A website blog for a residential, commercial, and automotive locksmith"
-  , "version": "0.0.1"
-  , "keywords": ["metro-ui", "metro ui", "css", "jekyll"]
-  , "homepage": "http://atlantacarlocksmith.com"
-  , "author": "joshkurz"
-  , "scripts": { "test": "grunt test" }
-  ,  "engines": {
+  "name": "open-sesame",
+  "description": "A website blog for a residential, commercial, and automotive locksmith",
+  "version": "0.0.1",
+  "keywords": [
+    "metro-ui",
+    "metro ui",
+    "css",
+    "jekyll"
+  ],
+  "homepage": "http://atlantacarlocksmith.com",
+  "author": "joshkurz",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "engines": {
     "node": "4.2.5",
     "npm": "2.14.12"
-  }
-  , "bundledDependencies": [
-      "open-sesame"
-  ]
-  , "devDependencies": {
-      "browserstack-runner": "~0.0.12"
-    , "btoa": "~1.1.1"
-    , "grunt": "~0.4.1"
-    , "grunt-contrib-clean": "~0.5.0"
-    , "grunt-contrib-concat": "~0.3.0"
-    , "grunt-contrib-connect": "~0.5.0"
-    , "grunt-contrib-copy": "~0.4.1"
-    , "grunt-contrib-jshint": "~0.7.0"
-    , "grunt-contrib-qunit": "~0.3.0"
-    , "grunt-contrib-uglify": "~0.2.4"
-    , "grunt-contrib-watch": "~0.5.3"
-    , "grunt-html-validation": "~0.1.6"
-    , "grunt-jekyll": "~0.4.0"
-    , "grunt-recess": "~0.4.0"
+  },
+  "bundledDependencies": [
+    "open-sesame"
+  ],
+  "devDependencies": {
+    "browserstack-runner": "~0.0.12",
+    "btoa": "~1.1.1",
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-jshint": "~0.7.0",
+    "grunt-contrib-qunit": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-html-validation": "~0.1.6",
+    "grunt-jekyll": "~0.4.0",
+    "grunt-recess": "~0.4.0"
   }
 }

@@ -1,13 +1,3 @@
-/*!
- * Metro UI 4 Jekyll v0.0.1 (http://atlantacarlocksmith.com)
- * A website blog for a residential, commercial, and automotive locksmith maintained by Alfred G. Fischer
- * Metro UI CSS Copyright 2012-2016 Sergey Pimenov
- * Metro UI 4 Jekyll Copyright 2014-2016 Alfred G. Fischer
- * Both licensed under 
- */
-
-if (typeof jQuery === "undefined") { throw new Error("Metro UI 4 Jekyll requires jQuery") }
-
 var METRO_AUTO_REINIT;
 var METRO_LOCALE;     // see possible values in metro-locale.js
 var METRO_WEEK_START; // 0 - Sunday, 1 - Monday

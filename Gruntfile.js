@@ -10,16 +10,6 @@ module.exports = function(grunt) {
         // Metadata.
         pkg: grunt.file.readJSON('package.json'),
 
-        banner: '/*!\n' +
-            ' * Metro UI 4 Jekyll v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
-            ' * <%= pkg.description %> maintained by Alfred G. Fischer\n' +
-            ' * Metro UI CSS Copyright 2012-<%= grunt.template.today("yyyy") %> Sergey Pimenov\n' +
-            ' * Metro UI 4 Jekyll Copyright 2014-<%= grunt.template.today("yyyy") %> Alfred G. Fischer\n' +
-            ' * Both licensed under <%= _.pluck(pkg.licenses, "url").join(", ") %>\n' +
-            ' */\n\n',
-
-        jqueryCheck: 'if (typeof jQuery === "undefined") { throw new Error("Metro UI 4 Jekyll requires jQuery") }\n\n',
-
         // Task configuration.
         clean: {
             dist: ['dist']
@@ -42,7 +32,6 @@ module.exports = function(grunt) {
 
         concat: {
             options: {
-                banner: '<%= banner %><%= jqueryCheck %>',
                 stripBanners: false
             },
             bootstrap: { // comment out elements you don't need
@@ -90,7 +79,6 @@ module.exports = function(grunt) {
 
         uglify: {
             options: {
-                banner: '<%= banner %>',
                 report: 'min'
             },
             bootstrap: {
@@ -102,7 +90,6 @@ module.exports = function(grunt) {
         recess: {
             options: {
                 compile: true,
-                banner: '<%= banner %>'
             },
             responsive: {
                 src: ['less/metro-bootstrap-responsive.less'],
@@ -143,6 +130,7 @@ module.exports = function(grunt) {
             },
             opensesame: {
                 src: ['less/opensesame/*.less'],
+                compress: true,
                 dest: 'css/opensesame.min.css'
             },
             metro_min: {
