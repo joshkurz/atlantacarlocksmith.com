@@ -1,5 +1,7 @@
 /* jshint node: true */
 
+var mozjpeg = require('imagemin-mozjpeg');
+
 module.exports = function(grunt) {
     "use strict";
 
@@ -197,6 +199,22 @@ module.exports = function(grunt) {
                 files: 'less/**/*.less',
                 tasks: ['recess']
             }
+        },
+
+        imagemin: {                          // Task
+            dynamic: {    
+              options: {                       // Target options
+                optimizationLevel: 3,
+                svgoPlugins: [{ removeViewBox: false }],
+                use: [mozjpeg()]
+              },                     // Another target
+              files: [{
+                expand: true,                  // Enable dynamic expansion
+                cwd: 'uncompressed_images/',                   // Src matches are relative to this path
+                src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
+                dest: 'images/'                  // Destination path prefix
+              }]
+            }
         }
     });
 
@@ -211,6 +229,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-qunit');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-html-validation');
   grunt.loadNpmTasks('grunt-jekyll');
   grunt.loadNpmTasks('grunt-recess');
@@ -239,7 +258,7 @@ module.exports = function(grunt) {
   grunt.registerTask('dist-fonts', ['copy']);
 
   // Full distribution task.
-  grunt.registerTask('dist', [/*'clean', */'dist-css', 'dist-fonts', 'dist-js']);
+  grunt.registerTask('dist', [/*'clean', */'dist-css', 'dist-fonts', 'dist-js', 'imagemin']);
 
   // Default task.
   grunt.registerTask('default', [/*'test', */'dist', 'build-customizer']);
