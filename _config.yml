@@ -19,6 +19,17 @@ description:      "321 Open Sesame is the Atlanta Locksmith that truly cares abo
 locale:           "en"
 ga-acc:           "UA-29201269-1" # your Google Analytics tracking No., e.g.  UA-123456789-1
 
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
+
+
 defaults:
   -
     scope:
