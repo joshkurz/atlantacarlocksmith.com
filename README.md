@@ -18,5 +18,5 @@ If you are interested in learning more about Open Sesame, go and see the [atlant
 
 1. grunt watch
 2. open a new terminal
-3. jekyll serve --watch
+3. jekyll serve --watch --livereload
 4. navigate to localhost:4000
